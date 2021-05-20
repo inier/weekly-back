@@ -3,7 +3,7 @@
     "name": "weekly",
     "script": "./app/app.js",
     "watch": false,
-    "args": "--web --port 4092",
+    "args": "--web --port 4092 --node-args=--debug=7000",
     "interpreter": "node",
     "env": {
       "NODE_ENV": "development"
